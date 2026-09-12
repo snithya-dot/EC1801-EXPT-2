@@ -2,24 +2,24 @@
 ### SIMULATION AND VERIFICATION OF AND, OR, AND NOT GATES
 ## Aim
 To design, implement, and verify the functionality of basic AND, OR, and NOT logic gates using Verilog HDL, and verify the functionality using Synopsys VCS and DVE.
-Software Required
+# Software Required
 •	Synopsys VCS
 •	Synopsys DVE
 •	Linux Terminal
 •	Verilog HDL
-Boolean Function
+# Boolean Function
 The basic logic gates realize the following Boolean functions:
 •	AND: Y_AND = A . B
 •	OR: Y_OR = A + B
 •	NOT: Y_NOT = A'
 
-Theory / Synopsis
+# Theory / Synopsis
 Logic gates are the basic building blocks of digital systems. NAND and NOR are universal gates. XOR produces 1 when its inputs differ, while XNOR produces 1 when its inputs are equal.
-Files to be Created
+# Files to be Created
 File name	Purpose
 logic_gates.v	Logic-gate RTL
 logic_gates_tb.v	All input combinations and VCD generation
- Design / RTL Program
+ # Design / RTL Program
 verilog
 // gedit basic_gates.v
 ```
@@ -37,7 +37,8 @@ module basic_gates (
 
 endmodule
 ```
- Testbench Program
+# Testbench Program
+```
 module tb2;
 
     reg a, b;
@@ -71,8 +72,10 @@ module tb2;
 
 endmodule
 
- 
-Simulation Procedure
+ ```
+<img width="940" height="318" alt="image" src="https://github.com/user-attachments/assets/8a343bdb-ffb4-4aac-8b88-cf59eca374a8" />
+
+# Simulation Procedure
 STEP 1 – Open Terminal
 Open a terminal in the experiment folder.
 bash
@@ -112,7 +115,7 @@ Verify that y_and = 1 only when a=1 AND b=1 — the single combination where bot
 Verify that y_or = 1 whenever a=1 OR b=1 (any input high forces the output high).
 Verify that y_not is always the exact complement of a, regardless of b.
 The waveform should agree with the truth table.
-Expected Result
+# Expected Result
 The basic logic gates — AND, OR, and NOT — were realized using Verilog HDL:
 Y_AND = A.B
 Y_OR = A+B
@@ -123,9 +126,12 @@ Output
 <img width="940" height="258" alt="image" src="https://github.com/user-attachments/assets/a3d06aeb-6516-446c-89aa-1ee82c3214d1" />
 
  
-Viva-Voce Questions
+# Viva-Voce Questions
+
 •	What is a logic gate?
+
 •	What are the basic logic gates in digital electronics?
+
 •	What is the Boolean expression for an AND gate? An OR gate? A NOT gate?
 •	Why is the NOT gate also called an inverter?
 •	What is a universal gate, and how can NAND/NOR realize AND, OR, and NOT?
