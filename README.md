@@ -9,6 +9,7 @@ To design, implement, and verify the functionality of basic AND, OR, and NOT log
 •	Verilog HDL
 # Boolean Function
 The basic logic gates realize the following Boolean functions:
+
 •	AND: Y_AND = A . B
 •	OR: Y_OR = A + B
 •	NOT: Y_NOT = A'
@@ -133,10 +134,15 @@ Output
 •	What are the basic logic gates in digital electronics?
 
 •	What is the Boolean expression for an AND gate? An OR gate? A NOT gate?
+
 •	Why is the NOT gate also called an inverter?
+
 •	What is a universal gate, and how can NAND/NOR realize AND, OR, and NOT?
+
 •	What is the purpose of a Verilog testbench?
+
 •	Why is a VCD file generated?
+
 •	What is the purpose of ./simv?
 •	What is the purpose of DVE?
 •	What is the difference between simulation and synthesis?
