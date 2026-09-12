@@ -119,6 +119,9 @@ Y_OR = A+B
 Y_NOT = A'
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 Output
+### OUTPUT
+<img width="940" height="258" alt="image" src="https://github.com/user-attachments/assets/a3d06aeb-6516-446c-89aa-1ee82c3214d1" />
+
  
 Viva-Voce Questions
 •	What is a logic gate?
