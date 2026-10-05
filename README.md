@@ -22,10 +22,9 @@ logic_gates.v	Logic-gate RTL
 logic_gates_tb.v	All input combinations and VCD generation
  # Verilog  Program
 
-```
 # **Test Bench Program**
 
-```
+
 
 
  ```
