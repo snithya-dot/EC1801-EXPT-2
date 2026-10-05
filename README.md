@@ -27,7 +27,7 @@ logic_gates_tb.v	All input combinations and VCD generation
 
 
 
- ```
+ 
 <img width="940" height="318" alt="image" src="https://github.com/user-attachments/assets/8a343bdb-ffb4-4aac-8b88-cf59eca374a8" />
 
 # Simulation Procedure
@@ -77,7 +77,7 @@ Y_OR = A+B
 Y_NOT = A'
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 Output
-### OUTPUT
+# OUTPUT
 
 
  
